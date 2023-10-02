@@ -1,0 +1,38 @@
+html{
+    
+   
+}
+body{
+    
+   
+}
+a{
+    
+    text-decoration: none;
+   display: block;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+    
+
+
+footer{
+    background-color: #2D3C5F;
+    
+    padding: 2em;
+}
+footer > div > a{
+    color: white;
+}
+
+.top > a > h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
