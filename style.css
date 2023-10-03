@@ -1,13 +1,8 @@
-html{
-    
-   
-}
-body{
-    
-   
+p{
+    font-family: 'Fira Sans', sans-serif;
 }
 a{
-    
+     font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
    display: block;
 }
