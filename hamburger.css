@@ -80,7 +80,7 @@
    
 }
    
-   @media screen and (max-width: 829px) {
+   @media screen and (max-width: 984px) {
      .hamburger-nav.active {
        transform: scaleY(1);
        
@@ -125,7 +125,7 @@
      }
    }
    
-   @media screen and (min-width: 830px) {
+   @media screen and (min-width: 985px) {
      .nav-menu > li > a {
        font-size: 17px;
        font-weight: 800;

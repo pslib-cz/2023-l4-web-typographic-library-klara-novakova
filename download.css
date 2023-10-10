@@ -1,0 +1,17 @@
+mark{
+    background: #F7D002;
+    border-radius: 1em ;
+   padding: 0.5em;
+}
+ul{
+    list-style:  url(./bug.svg);
+    
+}
+.button{
+    color: white;
+    background-color: #454E9E;
+    padding: 1em;
+    border-radius: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
