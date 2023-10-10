@@ -5,6 +5,7 @@ a{
      font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
    display: block;
+   
 }
 img{
     display: block;
@@ -12,13 +13,17 @@ img{
 }
 
 
-
-
+section{
+    margin: 2em;
+}
+ 
+section >h2 {
+    font-family: 'Rubik Mono One', sans-serif;
     
-
+}
 
 footer{
-    background-color: #2D3C5F;
+    background-color: #F7D002;
     
     padding: 2em;
 }
@@ -28,6 +33,8 @@ footer > div > a{
 
 .top > a > h1 {
     font-family: 'Rubik Mono One', sans-serif;
+    color: #F7D002;
+    font-size: 3em;
 }
 
 
