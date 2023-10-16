@@ -77,8 +77,16 @@
     display: flex;
     margin: 0px 1.5em 0em 1.5em;
     justify-content: space-between;
-   
+  
 }
+@media screen and (min-width: 1115px) {
+.top{
+  max-width: 1080px;
+  margin: 0 auto;
+ 
+}
+  }
+
    
    @media screen and (max-width: 984px) {
      .hamburger-nav.active {
@@ -117,11 +125,13 @@
        margin:  0 2em 1em 2em;
        padding: 1em 0 0 0;
        justify-content: end;
+       
      }
     
      .li-cara > a{
        text-align: end;
        width: 100%;
+       
      }
    }
    
@@ -142,6 +152,7 @@
        transform: none;
        position: static;
        
+       
      }
      .nav-menu {
        display: flex;
@@ -158,6 +169,6 @@
        align-items: center;
      }
      .hamburger-nav li{
-       background-color: white;
+      background-color: white;
      }
    }

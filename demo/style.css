@@ -4,6 +4,7 @@
 
 section{
     margin: 2em;
+    padding-bottom: 4em;
 }
  
 
@@ -32,5 +33,16 @@ footer > div > a{
     max-width: 500px;
     border-radius: 1em;
 }
+.pictures__box{
+    display: flex;
+    gap: 1em;
+}
 
-
+@media screen and (min-width: 1115px) {
+   
+section{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+     
+    }

@@ -1,10 +1,14 @@
+/* fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Mono+One&display=swap");
+
+/* colors */
 :root {
   --mark-color: #f7d002;
   --code-background: #d9d9d9;
-  --button-color--hover: #454e9e;
+  --button-color--hover: #f7d002;
   --button-text--full: white;
   --button-color--full: black;
   --button-text--bordered: black;
@@ -20,7 +24,7 @@ a{
  
    
 }
-
+/* headings */
 h1,
 h2,
 h3,
@@ -28,6 +32,7 @@ h4,
 h5,
 h6 {
   font-family: "Rubik Mono One", sans-serif;
+  
 }
 h1 {
   font-size: 40px;
@@ -52,6 +57,7 @@ h5 {
 h6 {
   font-size: 18px;
 }
+/* types of text */
 mark {
   background: var(--mark-color);
   border-radius: 1em;
@@ -70,9 +76,11 @@ p {
   margin: 2em;
   text-indent: 2em;
 }
+/* lists */
 ul {
   list-style: url(./demo/bug.svg);
 }
+/* buttons */
 .button {
   padding: 1em;
   border-radius: 2em;
@@ -91,7 +99,7 @@ ul {
   color: var(--button-text--bordered);
   border: solid 4px;
 }
-
+/* tables */
 table {
   background-color: var(--table-clor);
   border-collapse: collapse;
@@ -109,12 +117,45 @@ td {
   border: solid rgba(255, 255, 255, 0.5);
   padding: 0.5em;
 }
-figure{
-    display: block;
-    max-width: 200px;
-}
+/* pictures */
 img{
-    
+    aspect-ratio: 1/1;
     width: 100%;
-    max-width: 800px;
+    height: 100%;
+    object-fit: cover;
+}
+figure {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    max-width: 400px;
+   border-radius: 2em;
+}
+
+figcaption {
+    transition: .2s;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    transform: translateY(100%);
+}
+
+figure:hover figcaption {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+img {
+    transition: .2s;
+}
+
+figure:hover img {
+    transform: scale(1.5);
+    transition: .5s;
 }
