@@ -80,6 +80,12 @@ p {
 ul {
   list-style: url(./demo/bug.svg);
 }
+li{
+    line-height: 2em;
+}
+ol{
+    list-style-type: upper-roman;
+}
 /* buttons */
 .button {
   padding: 1em;
