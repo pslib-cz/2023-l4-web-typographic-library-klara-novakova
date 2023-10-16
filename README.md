@@ -5,9 +5,9 @@
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-klara-novakova/)** site for preview.
 
 ## Implementation
-Download [dowload.css](https://github.com/klara-novakova)
+Download [dowload.css](https://github.com/pslib-cz/2023-l4-web-typographic-library-klara-novakova/blob/master/download.css) and add it to your own project!
 ## Usage
-...
+This Typhographic lybrary could be yoused to quickly and efficiently design your website :)
 ## Components and More
 ### Colors
 This library has predefined colours. Selector `:root` defines those colours.You can change them to whatever you like.
