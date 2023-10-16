@@ -1,8 +1,6 @@
-p{
-    font-family: 'Fira Sans', sans-serif;
-}
+
 a{
-     font-family: 'Fira Sans', sans-serif;
+   
     text-decoration: none;
  
    
@@ -17,10 +15,7 @@ section{
     margin: 2em;
 }
  
-section >h2 {
-    font-family: 'Rubik Mono One', sans-serif;
-    
-}
+
 
 footer{
     background-color: #F7D002;
@@ -32,9 +27,19 @@ footer > div > a{
 }
 
 .top > a > h1 {
-    font-family: 'Rubik Mono One', sans-serif;
+    
     color: #F7D002;
-    font-size: 3em;
+    
+}
+
+
+
+
+.headings__box{
+    background-color:#D9D9D9;
+    padding: 1em 3em 1em 3em ;
+    max-width: 500px;
+    border-radius: 1em;
 }
 
 
