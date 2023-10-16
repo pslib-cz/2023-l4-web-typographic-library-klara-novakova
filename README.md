@@ -11,7 +11,6 @@ This Typhographic lybrary could be yoused to quickly and efficiently design your
 ## Components and More
 ### Colors
 This library has predefined colours. Selector `:root` defines those colours.You can change them to whatever you like.
-### Fonts
 ### Headings 
 You can use headings from `<h1>` to `<h6>`. Font sizes are: 
 * 40px for `<h1>`
