@@ -5,7 +5,7 @@
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-klara-novakova/)** site for preview.
 
 ## Implementation
-...
+Download [dowload.css](https://github.com/klara-novakova)
 ## Usage
 ...
 ## Components and More
@@ -35,7 +35,7 @@ The `<ul>` tag defines an unordered list. Use the `<ul>` tag together with the `
         </ul>
 ```
 #### Ordered list
-The `<ol>` tag defines an ordered list. An ordered list is numerical. The `<li>` tag is used to define each list item. Syntax:
+The `<ol>` tag defines an ordered list. An ordered list is numerical with roman numbers. The `<li>` tag is used to define each list item. Syntax:
 ```html
   <ol>
           <li>Ordered list item 1</li>
@@ -76,4 +76,18 @@ The table has definitions for the `<table>`, `<thead>`, `<th>` and `<td>` tags. 
             </tr>
           </tbody>
         </table>
+```
+### Buttons
+There are two variants of buttons. Class "button" is used, than "button--ful" or "button--bordered" depending on wich design you chose. Syntax:
+```html
+<a class="button button--full" href="#">Button</a>
+<a class=" button button--bordered" href="#">Button</a>
+```
+### Pictures
+Pictures are tranformed to have the aspect ratio of 1/1 and the figcaption is revealed upon hovering. Syntax:
+```html
+ <figure>
+            <figcaption>yellow wall with shadows</figcaption>
+            <img src="https://images.pexels.com/photos/4915833/pexels-photo-4915833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="yellow wall with shadows">
+          </figure>
 ```
