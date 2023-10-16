@@ -77,7 +77,7 @@ The table has definitions for the `<table>`, `<thead>`, `<th>` and `<td>` tags. 
         </table>
 ```
 ### Buttons
-There are two variants of buttons. Class "button" is used, than "button--ful" or "button--bordered" depending on wich design you chose. Syntax:
+There are two variants of buttons. `class="button"` is used, than `class="button--full" or `class="button--bordered" depending on wich design you chose. Syntax:
 ```html
 <a class="button button--full" href="#">Button</a>
 <a class=" button button--bordered" href="#">Button</a>
