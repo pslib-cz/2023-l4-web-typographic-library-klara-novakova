@@ -10,7 +10,7 @@ Download [dowload.css](https://github.com/pslib-cz/2023-l4-web-typographic-libra
 This Typhographic lybrary could be yoused to quickly and efficiently design your website :)
 ## Components and More
 ### Colors
-This library has predefined colours. Selector `:root` defines those colours.You can change them to whatever you like.
+This library has predefined colours. Selector `:root` defines those colours. You can change them to whatever you like.
 ### Headings 
 You can use headings from `<h1>` to `<h6>`. Font sizes are: 
 * 40px for `<h1>`
