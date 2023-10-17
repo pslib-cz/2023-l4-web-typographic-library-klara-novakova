@@ -9,6 +9,15 @@ Download [dowload.css](https://github.com/pslib-cz/2023-l4-web-typographic-libra
 ## Usage
 This Typhographic lybrary could be yoused to quickly and efficiently design your website :)
 ## Components and More
+### Fonts
+This library uses fonts Rubik Mono One, Fira Sans and Roboto Mono.
+```html
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Mono+One&display=swap");
+
+
+```
 ### Colors
 This library has predefined colours. Selector `:root` defines those colours. You can change them to whatever you like.
 ### Headings 
